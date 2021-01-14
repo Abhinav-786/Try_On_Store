@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFF"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="50sp"
+                android:src="@drawable/welcome"></ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WELCOME"
+                android:layout_marginTop="10sp"
+                android:textSize="45sp"
+                android:textFontWeight="900"
+                android:textColor="@color/maincolor"
+                android:fontFamily="@font/times_new_roman"
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Try On Store welcomes you to try our product at your place"
+                android:layout_marginTop="25sp"
+                android:textColor="#B4B4B4"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:fontFamily="@font/times_new_roman"
+                android:textFontWeight="500"
+                android:textSize="25sp"></TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,98 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_best_sellings_cardview"
+    android:layout_width="150dp"
+    android:layout_height="200dp"
+android:layout_margin="7sp"
+
+    android:layout_marginTop="10sp"
+    android:elevation="6sp"
+    app:cardCornerRadius="18dp">
+
+    <LinearLayout
+        android:id="@+id/opendetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/product_item_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sofa1"
+                    android:scaleType="fitCenter "/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5sp"
+                android:layout_weight="1.6"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/product_item_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/times_new_roman"
+                    android:text="Choise Cornor Sofa"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:fadingEdge="horizontal"
+                    android:scrollHorizontally="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:textColor="#000000"
+                    android:textFontWeight="700"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/product_item_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3sp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:fadingEdge="horizontal"
+                    android:scrollHorizontally="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:text="Very comfortable sofa with the best fabric."
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    android:textFontWeight="200" />
+
+                <TextView
+                    android:id="@+id/product_item_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:text="Rs.9,000/-"
+                    android:textColor="@color/maincolor"
+                    android:textFontWeight="900"
+                    android:textSize="17sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
