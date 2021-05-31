@@ -42,25 +42,25 @@ public class Splash extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                textView.setText("A");
+                textView.setText("K");
             }
         }, 300);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                textView.append("B");
+                textView.append("A");
             }
         }, 450);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                textView.append("H");
+                textView.append("R");
             }
         }, 600);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                textView.append("I");
+                textView.append("A");
             }
         }, 750);
         new Handler().postDelayed(new Runnable() {
@@ -69,18 +69,6 @@ public class Splash extends Activity {
                 textView.append("N");
             }
         }, 900);
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                textView.append("A");
-            }
-        }, 1050);
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                textView.append("V");
-            }
-        }, 1200);
 
         handler.postDelayed(new Runnable() {
             @Override

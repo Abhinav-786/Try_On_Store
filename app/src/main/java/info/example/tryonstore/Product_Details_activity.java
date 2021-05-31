@@ -65,8 +65,8 @@ String image,Title,Description,Prize;
                     object.put("theme.color","#fcfcfc");
                     object.put("currency", "INR");
                     object.put("amount",400*100);
-                    object.put("prefill.contact","788861589");
-                    object.put("prefill.email","abhinav.786.m@gmail.com");
+                    object.put("prefill.contact","9041171625");
+                    object.put("prefill.email","karanmatharoo24@gmail.com");
                     checkout.open(Product_Details_activity.this,object);
                 } catch (JSONException e)
                 {
