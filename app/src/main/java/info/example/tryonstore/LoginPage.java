@@ -53,6 +53,8 @@ public class LoginPage extends Activity {
             startActivity(in);
             overridePendingTransition(R.anim.anim, R.anim.anim2);
             finish();
+            System.out.println("This is branch 1");
+             System.out.println("This is branch 1");
         }
 
     }
